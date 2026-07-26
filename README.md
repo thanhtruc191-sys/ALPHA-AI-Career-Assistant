@@ -13,6 +13,13 @@
 ## 🏗️ 2. KIẾN TRÚC VẬN HÀNH (WORKFLOW COZE)
 Hệ thống vận hành tự động dựa trên **7 khối chức năng chính**:
 1. **Start:** Tiếp nhận tương tác ban đầu từ học sinh.
+   > 🚀 **Cấu hình giao diện ban đầu (Opening & Preset Questions):**
+   > * **Lời chào ban đầu:** `🚀 Chào mừng bạn đến với ALPHA – Trợ lý hướng nghiệp số dành cho học sinh THPT! 👈 Vui lòng chọn đúng khối lớp của bạn để ALPHA bắt đầu quá trình tư vấn và định hướng nghề nghiệp phù hợp.`
+   > * **Các câu hỏi gợi ý (Nút chọn nhanh trên giao diện):**
+   >   1. Học sinh lớp 9 chuẩn bị lên lớp 10
+   >   2. Học sinh lớp 10
+   >   3. Học sinh lớp 11
+   >   4. Học sinh lớp 12
 2. **Phân loại học sinh:** Rẽ nhánh kịch bản theo đúng đối tượng (Lớp 9 lên 10 hoặc THPT).
 3. **AI Chào hỏi & Khởi tạo (GPT-4o):** Đón tiếp, tạo không khí thân thiện và thu thập thông tin nền.
 4. **Kho trí thức (Knowledge):** Chứa ma trận hướng nghiệp Lớp 9 lên 10, ma trận hướng nghiệp Lớp 10, 11, 12, ma trận chấm điểm, Khung năng lực số, bộ 65 câu hỏi trắc nghiệm tương tác và Mô hình ALPHA 5D.
